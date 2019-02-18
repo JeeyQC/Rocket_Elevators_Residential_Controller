@@ -1,4 +1,4 @@
-call Column {
+class Column {
     constructor(NumberFLOOR, NumberELEVATOR){
         this.NumberFLOOR = NumberFLOOR;
         this.NumberELEVATOR = NumberELEVATOR;
@@ -10,3 +10,20 @@ call Column {
         }    
     }
 }
+
+class Button {
+    constructor(DIRECTION, RequestFLOOR) {
+        this.DIRECTION = DIRECTION;
+        this.RequestFLOOR = RequestFLOOR;
+        this.ActivateButton = false;
+    }
+}
+
+class InsideButton {
+    constructor (FLOOR) {
+        this.FLOOR = FLOOR;
+        this.Status = "Desactivated";
+    }
+}
+
+class ElevatorController {}

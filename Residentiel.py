@@ -1,5 +1,5 @@
 #coding:utf-8
-
+ class = 
 
 RequestFloor = ['FloorNumber','Direction' ]
 RequestFloor.sort() #Trie des étages
